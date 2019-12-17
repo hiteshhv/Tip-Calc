@@ -1,12 +1,21 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #a11650;
-  padding-top: 200px;
-  padding-left: 500px;
+/* padding-top: 200px;
+  padding-left: 500px; */
+  display: flex;
   align-items: center;
+}
+div {
+  border-radius: 8px;
+}
+input {
+  border-radius: 8px;
+  background-color: #cacbeb;
 }
 
 #container {
+  margin: auto;
   background: teal;
   height: 400px;
   width: 350px;
@@ -35,7 +44,9 @@ h1 {
 #calculate {
   height: 20px;
   width: 250px;
+  background-color: #cacbeb;
   text-decoration-color: white;
+  border-radius: 8px;
 }
 #calculate:hover {
   background-color: #1884ba;
