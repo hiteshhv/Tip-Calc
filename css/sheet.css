@@ -1,8 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #a11650;
-/* padding-top: 200px;
-  padding-left: 500px; */
   display: flex;
   align-items: center;
 }
@@ -49,5 +47,8 @@ h1 {
   border-radius: 8px;
 }
 #calculate:hover {
+  height: 25px;
+  width: 255px;
   background-color: #1884ba;
+  transition-duration: 500ms;
 }
