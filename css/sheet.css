@@ -1,0 +1,41 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #a11650;
+  padding-top: 200px;
+  padding-left: 500px;
+  align-items: center;
+}
+
+#container {
+  background: teal;
+  height: 400px;
+  width: 350px;
+  align-content: center;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.header {
+  background-color: black;
+}
+
+.switch {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+#calculate {
+  height: 20px;
+  width: 250px;
+  text-decoration-color: white;
+}
+#calculate:hover {
+  background-color: #1884ba;
+}
