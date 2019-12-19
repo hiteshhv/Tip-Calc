@@ -2,10 +2,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #a11650;
   display: flex;
-  align-items: center;
 }
 div {
-  border-radius: 8px;
+  border-radius: 6px;
 }
 input {
   border-radius: 8px;
@@ -26,6 +25,31 @@ p {
 
 h1 {
   color: white;
+}
+#topnav {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: teal;
+  height: 50px;
+  width: auto;
+  padding-right: 25px;
+}
+
+#container div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.topbar a {
+  color: white;
+}
+
+ul {
+  overflow: hidden;
+}
+li {
+  display: inline-block;
 }
 
 #header {
