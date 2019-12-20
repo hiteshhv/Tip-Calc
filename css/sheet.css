@@ -27,22 +27,24 @@ h1 {
   color: white;
 }
 #topnav {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  background-color: teal;
+  background-color: #333;
+  overflow: hidden;
   height: 50px;
-  width: auto;
-  padding-right: 25px;
+}
+
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 #container div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-.topbar a {
-  color: white;
 }
 
 ul {
