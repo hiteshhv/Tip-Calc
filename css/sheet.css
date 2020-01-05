@@ -26,11 +26,11 @@ p {
 h1 {
   color: white;
 }
-#topnav {
+/*#topnav {
   background-color: #333;
   overflow: hidden;
   height: 50px;
-}
+}*/
 
 #topnav a {
   float: left;
