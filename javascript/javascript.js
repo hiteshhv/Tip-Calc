@@ -24,7 +24,21 @@ document.getElementById("tip").innerHTML = total;
 //document.getElementById("totaltip").style.display = "none";
 //document.getElementById(each).style.display = "none";
 
-//to call the function
+
+function changeBodyBg(color){
+    document.body.style.background = color;
+}
+
+function changeHeadingBg(color){
+    document.getElementById("calculate").style.background = color;
+}
+
+document.getElementById("calculate").addEventListner("onclick",
+  function () {
+  }
+)
+
+
 document.getElementById("calculate").onclick = function () {
  calculateTip();
 };
