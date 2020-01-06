@@ -9,6 +9,7 @@ div {
 input {
   border-radius: 8px;
   background-color: #cacbeb;
+  padding-left: 80px;
 }
 
 #container {
@@ -24,6 +25,7 @@ input {
 }
 p {
   color: white;
+  padding-left: 10px;
 }
 
 h1 {
@@ -76,7 +78,7 @@ li {
 #calculate {
   height: 20px;
   width: 250px;
-  background-color: #5cdb35;
+  background-color: #a39796;
   text-decoration-color: white;
   border-radius: 8px;
 }
