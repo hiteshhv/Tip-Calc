@@ -75,6 +75,11 @@ li {
   padding-right: 30px;
 }
 
+#serviceQual {
+  padding: 8px 8px 10px 10px;
+  margin-left: 20px;
+}
+
 #calculate {
   height: 20px;
   width: 250px;
