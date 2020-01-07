@@ -29,15 +29,16 @@ function changeBodyBg(color){
     document.body.style.background = color;
 }
 
-function changeHeadingBg(color){
-    document.getElementById("calculate").style.background = color;
+document.getElementById("calculate").onclick = function () {
+  changeBodyBg('yellow');
 }
 
 document.getElementById("calculate").addEventListner("onclick",
-  function () {
-  }
-)
+  function () {} )
 
+document.getElementById("calculate").onclick = function () {
+  changeBodyBg('yellow');
+}
 
 document.getElementById("calculate").onclick = function () {
  calculateTip();
